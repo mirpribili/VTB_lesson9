@@ -92,7 +92,7 @@ public class MainApp {
 
         String urlString1 = "file:///tmp/Human.class";
 //        String urlString2 = "file:///home/kde/Документы/java/VTB24/lesson9/src/Human.class";
-        String urlString2 = "/home/kde/Документы/java/VTB24/lesson9/src/Human.class";
+        String urlString2 = "/home/kde/Документы/java/VTB24/lesson9/src/main/java/Human.class";
         String urlString3 = "file:///home/kde/Документы/java/VTB24/lesson9/src/Human.class";
         //URL classUrl;
         //classUrl = new URL(urlString2);
