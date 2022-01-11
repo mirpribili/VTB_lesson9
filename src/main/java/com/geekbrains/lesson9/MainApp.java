@@ -155,7 +155,7 @@ public class MainApp {
 
         //
 
-        System.out.println("=============================");
+        System.out.println("============================= getDeclaredMethods");
         Class testClass = TestClassAnno.class;
         Method[] methods = testClass.getDeclaredMethods();
 
@@ -165,7 +165,7 @@ public class MainApp {
                 o.invoke(null); // тк это статический метод то делаем нулл
             }
         }
-        System.out.println("=============================");
+        System.out.println("============================= executionList.sort");
 // а теперь вызовем методы с аннотацией в зависимости от приоритета
         List<Method> executionList = new ArrayList<>();
         for (Method o: methods){
